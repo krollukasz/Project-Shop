@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+
 
 // Import styles
 import "./Header.scss";
@@ -8,21 +11,41 @@ export const Header = props => {
   return (
     <div className="header">
       <nav className="navigation-wrapper">
-        <div className="shop-name">
-          Computers
+        <a href="/" className="shop-name">
+          <img src="/images/logo.png" alt="logo" />
+          <span className="logo-text">
+            Computer Shop
+          </span>
+        </a>
+        <div className="links-wrapper">
+          <div>
+            <ul className="links">
+              <li className="navigation-link">
+                <NavLink exact to="/" className="link-nav" activeClassName="activeLink" activeStyle={{ fontWeight: "bold" }}>
+                  Home
+                </NavLink>
+              </li>
+              <li className="navigation-link">
+                <NavLink exact to="/faq" className="link-nav" activeClassName="activeLink" activeStyle={{ fontWeight: "bold" }}>
+                  FAQ
+                </NavLink>
+              </li>
+              <li className="navigation-link">
+                <NavLink exact to="/regulations" className="link-nav" activeClassName="activeLink" activeStyle={{ fontWeight: "bold" }}>
+                  Regulations
+                </NavLink>
+              </li>
+              <li className="navigation-link">
+                <NavLink exact to="/contact" className="link-nav" activeClassName="activeLink" activeStyle={{ fontWeight: "bold" }}>
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+          <NavLink exact to="/basket" className="basket-icon" activeClassName="activeLink">
+            <FontAwesomeIcon icon={ faShoppingBag } />
+          </NavLink>
         </div>
-        <NavLink exact to="/" activeClassName="active">
-          Home
-        </NavLink>
-        <NavLink exact to="/faq" activeClassName="active">
-          FAQ
-        </NavLink>
-        <NavLink exact to="/regulations" activeClassName="active">
-          Regulations
-        </NavLink>
-        <NavLink exact to="/contact" activeClassName="active">
-          Contact
-        </NavLink>
       </nav>
     </div>
   );
