@@ -1,0 +1,26 @@
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.faq-header {
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+}
+
+.faq-question-answer {
+  padding: 0 50px;
+  text-align: left;
+  color: #555555;
+}
+
+.faq-question:first-letter,
+.faq-answer:first-letter {
+  color: #000000;
+  font-weight: 700;
+}
