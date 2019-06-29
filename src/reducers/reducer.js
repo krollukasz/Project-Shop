@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import basketReducer from './reducers/basket-reducer';
-import productReducer from './reducers/product-reducer';
+import basketReducer from './reducerBasket';
+import productReducer from './reducerProduct';
 
 const reducer = combineReducers({
-  products:productReducer,
+  products: productReducer,
   basket: basketReducer
 });
 
