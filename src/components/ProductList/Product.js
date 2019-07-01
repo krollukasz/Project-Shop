@@ -7,12 +7,12 @@ import { NavLink } from 'react-router-dom';
 export const Product = (props) => (
   <NavLink
     className="product"
-    exact to={"/product/" + props.index}
+    exact to={"/product/" + props.id}
     index={props.index} >
 
     <p className="product-info">{props.productInfo}</p>
     <p className="product-name">{props.name}</p>
-    <p className="product-price">$ {props.price}</p>
+    <p className="product-price">$ {props.price.toFixed(2)}</p>
     <img className="product-image" src={props.image} alt="product-image" />
   </NavLink>
 );
