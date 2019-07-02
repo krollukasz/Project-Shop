@@ -1,5 +1,5 @@
 import React from 'react';
-// import { connect } from 'react-redux';
+import { connect } from 'react-redux';
 import { Product } from './Product';
 // import { Products } from './Products';
 
@@ -13,7 +13,7 @@ export class ProductList extends React.Component {
       currentPage: 0,
       currentProducts: [0, 6]
     };
-    this.elements = this.props.sorted.length;
+    this.elements = this.props.sorted.products.length;
     this.pageSize = 6;
     this.pagesCount = Math.ceil(this.elements / this.pageSize);
   }
@@ -27,10 +27,10 @@ export class ProductList extends React.Component {
   }
 
   render() {
-    return(
-      <div className="productList">
+    return (
+      <div className="product-list">
         {
-          (this.props.sorted.slice(this.state.currentProducts[0], this.state.currentProducts[1])).map((product, i) => {
+          (this.props.sorted.products.slice(this.state.currentProducts[0], this.state.currentProducts[1])).map((product, i) => {
             return (
               <Product
                 key={i}
@@ -41,10 +41,18 @@ export class ProductList extends React.Component {
                 productInfo={product.productInfo}
                 image={product.image}
               />
-            )
+            );
           })
         }
       </div>
     );
   };
 }
+
+function mapStateToProps(state) {
+  return {
+    products: state.products
+  }
+}
+
+export default connect(mapStateToProps)(ProductList);
