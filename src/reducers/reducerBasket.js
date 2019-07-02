@@ -1,5 +1,3 @@
-import { stat } from "fs";
-
 export default function (state = { "summary": 0, "add": [] }, action) {
   switch (action.type) {
     case "ADD_TO_BASKET":
@@ -13,7 +11,7 @@ export default function (state = { "summary": 0, "add": [] }, action) {
       return {
         "add": added,
         "summary": state.summary + action.payload.price,
-      }
+      };
 
     case "QUANTITY_ADD":
       state.added.map((product) => {
@@ -24,7 +22,7 @@ export default function (state = { "summary": 0, "add": [] }, action) {
       return {
         "add": [...state.added],
         "summary": state.summary + action.payload.price,
-      }
+      };
 
     case "QUANTITY_REMOVE":
       state.added.map((product) => {
@@ -35,10 +33,15 @@ export default function (state = { "summary": 0, "add": [] }, action) {
       return {
         "add": state.added.filter(function (object) { return object.quantity !== 0 }),
         "summary": state.summary - action.payload.price,
-      }
+      };
+
+    case "REMOVE_ALL_PRODUCTS":
+      return {
+        "add": [],
+        "summary": 0
+      };
 
     default:
       return state;
   }
-  // return state;
 }
