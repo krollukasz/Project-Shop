@@ -1,0 +1,39 @@
+.productItemPage {
+  margin: 40px 20px 20px;
+  padding: 15px;
+  color: #000000;
+}
+
+.productItem-photo {
+  padding: 20px 10px;
+}
+
+.productItem-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.productItem-description {
+  padding: 30px 50px 20px;
+}
+
+.productItem-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.productItemPage-addToBasketButton {
+  margin-top: 16px;
+  padding: 6px 18px;
+  background-color: #BBDEFB;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #0077d8;
+    transition: 0.3s;
+  }
+}
