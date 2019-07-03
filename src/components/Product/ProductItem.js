@@ -37,7 +37,7 @@ export class ProductItem extends React.Component {
 
             <button 
               className="productItemPage-addToBasketButton"
-              onClick={() => this.props.addToBasket(this.props.product[this.props.match.params.id])}
+              onClick={() => this.props.addToBasket(this.props.products[this.props.match.params.id])}
             >
               Add to basket
             </button>
