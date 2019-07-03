@@ -1,7 +1,7 @@
 export default function () {
   return [
     {
-      "id": 1,
+      "id": 0,
       "name": "Headphones",
       "description": "Headphones, cables. Have adjustable width, in order to better adapt to the shape of the head. It is possible to disconnect the cable.",
       "price": 44.90,
@@ -10,7 +10,7 @@ export default function () {
       "image": "../../images/headphones_1.jpg",
     },
     {
-      "id": 2,
+      "id": 1,
       "name": "Keyboard",
       "description": "Classic computer keyboard, 102 keyboard, white color.",
       "price": 19.90,
@@ -19,7 +19,7 @@ export default function () {
       "image": "../../images/keyboard_1.jpg",
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Wireless mouse",
       "description": "Wireless mouse, black. It has 3 keys and a roll. Communication takes place using the receiver, connected to the USB port.",
       "price": 29.90,
@@ -28,7 +28,7 @@ export default function () {
       "image": "../../images/mouse_3.jpg",
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Computer speakers",
       "description": "A classic set of 2 computer speakers. High sound quality, modern and interesting design.",
       "price": 39.90,
@@ -37,7 +37,7 @@ export default function () {
       "image": "../../images/speakers_1.jpg",
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Multifunction printer",
       "description": "The all-in-one. Enables you to print documents in black and in color. In addition, you can scan and copy prints.",
       "price": 59.90,
@@ -46,7 +46,7 @@ export default function () {
       "image": "../../images/printer_1.jpg",
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Computer monitor",
       "description": "Modern LED-backlit monitor. High resolution image-Full HD. Resolution: 1920 x 1080, connecting with DisplayPort, D-SUB and HDMI port.",
       "price": 199.90,
@@ -55,7 +55,7 @@ export default function () {
       "image": "../../images/monitor_1.jpg",
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Ergonomic keyboard",
       "description": "Ergonomic keyboard, white. The classic layout, has a stand at the wrists so that your hands get tired when writing. Connects via USB.",
       "price": 55.90,
@@ -64,7 +64,7 @@ export default function () {
       "image": "../../images/keyboard_2.jpg",
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Computer mouse",
       "description": "Computer mouse, wired. It has 2 buttons and scroll wheel.",
       "price": 9.90,
@@ -73,7 +73,7 @@ export default function () {
       "image": "../../images/mouse_1.jpg",
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Gaming monitor",
       "description": "A great gaming monitor. Matrix LED 27'' FullHd, response time only 1ms and built-in speakers! Digital inputs: DVI, HDMI, DisplayPort.",
       "price": 249.90,
@@ -82,7 +82,7 @@ export default function () {
       "image": "../../images/monitor_3.jpg",
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Headphones with microphone",
       "description": "A headset with a microphone, cables. Perfect for the players and for the use of Instant Messaging. They have adjustable width, in order to better adapt to the shape of the head. The ability to adjust the volume using the remote control placed on the cable.",
       "price": 99.90,
@@ -91,7 +91,7 @@ export default function () {
       "image": "../../images/headphones_2.jpg",
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Wireless keyboard",
       "description": "Wireless keyboard, black. Ergonomic keyboard layout makes it easier to write. Programmable multimedia keys.",
       "price": 79.90,
@@ -100,7 +100,7 @@ export default function () {
       "image": "../../images/keyboard_3.jpg",
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Speakers",
       "description": "Computer speakers. Set of 2 speakers with a subwoofer. Provide a very high quality sound.",
       "price": 49.90,
@@ -109,7 +109,7 @@ export default function () {
       "image": "../../images/speakers_2.jpg",
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Keyboard and mouse",
       "description": "A set of keyboard and mouse. Wireless set in high quality. The mouse has two buttons and scroll wheel, the keyboard has additional programmable multimedia buttons.",
       "price": 94.90,
@@ -118,7 +118,7 @@ export default function () {
       "image": "../../images/keyboard_mouse_1.jpg",
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Classic mouse",
       "description": "Classic computer mouse, red. Feels good in the hand. Solid build quality, characterized by high precision and accuracy",
       "price": 34.90,
@@ -127,7 +127,7 @@ export default function () {
       "image": "../../images/mouse_2.jpg",
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Speakers set",
       "description": "Computer speakers. Set of 2 speakers with a subwoofer. Solid build quality, provide a very high quality sound.",
       "price": 54.90,
@@ -136,7 +136,7 @@ export default function () {
       "image": "../../images/speakers_3.jpg",
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Gaming keyboard",
       "description": "Gaming keyboard, perfect for the players. Low-profile keys, quiet and smooth operation. It has backlit buttons.",
       "price": 119.90,
@@ -145,7 +145,7 @@ export default function () {
       "image": "../../images/keyboard_4.jpg",
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Wireless headphones",
       "description": "Wireless headphones. Have adjustable width, in order to better adapt to the shape of the head. Soft finishes allow you to use for a very long time.",
       "price": 29.90,
@@ -154,7 +154,7 @@ export default function () {
       "image": "../../images/headphones_3.jpg",
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Monitor",
       "description": "Modern LED monitor. High resolution image-Full HD. Resolution: 1920 x 1080, connecting with DisplayPort, D-SUB and HDMI port.",
       "price": 129.90,
@@ -163,7 +163,7 @@ export default function () {
       "image": "../../images/monitor_2.jpg",
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Multifunction office printer",
       "description": "The all-in-one. Enables you to print documents in black and in color. In addition, you can scan and copy prints.",
       "price": 109.90,
@@ -172,7 +172,7 @@ export default function () {
       "image": "../../images/printer_2.jpg",
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Keyboard and mouse",
       "description": "A set of keyboard and mouse. Wireless set in high quality. The mouse has two buttons and scroll wheel, the keyboard has additional programmable multimedia buttons.",
       "price": 96.90,
@@ -181,7 +181,7 @@ export default function () {
       "image": "../../images/keyboard_mouse_2.jpg",
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Multifunction printer with scanner",
       "description": "The all-in-one. Enables you to print documents in black and in color. In addition, you can scan and copy prints.",
       "price": 169.90,
@@ -190,7 +190,7 @@ export default function () {
       "image": "../../images/printer_3.jpg",
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Speaker system 5.1",
       "description": "Set ensures high-quality surround sound, with five speakers and a subwoofer. Set allows you to decode audio tracks in Dolby Digital and DTS.",
       "price": 209.90,
@@ -199,7 +199,7 @@ export default function () {
       "image": "../../images/speakers_4.jpg",
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Gaming mouse",
       "description": "Gaming mouse. High quality mouse perfect for gamers, for comfort and fun for hours. It has 2 classic buttons, scroll wheel and 5 additional programmable keys, improving comfort during gameplay.",
       "price": 149.90,
@@ -208,7 +208,7 @@ export default function () {
       "image": "../../images/mouse_4.jpg",
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Gaming LED monitor",
       "description": "A great gaming LED monitor. Matrix LED 27'' FullHd, response time only 1ms and built-in speakers! Digital inputs: DVI, HDMI, DisplayPort.",
       "price": 299.90,
