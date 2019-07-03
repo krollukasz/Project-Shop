@@ -2,11 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 // Import styles
-// import "./Product.scss";
+import "./Product.scss";
 
 export const Product = (props) => (
   <NavLink
-    className="product"
+    className="product col-sm-12 col-md-6 col-lg-4"
     exact to={"/product/" + props.id}
     index={props.index} >
 

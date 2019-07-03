@@ -1,0 +1,35 @@
+.product {
+  margin: 40px 40px 20px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #BBDEFB;
+  border-radius: 6px;
+  text-align: center;
+
+  &:hover {
+    transition: 0.4s ease-out;
+    transform: scale(1.10);
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.product-info {
+  margin-bottom: 4px;
+}
+
+.product-name {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.product-name,
+.product-price {
+  font-weight: 700;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
