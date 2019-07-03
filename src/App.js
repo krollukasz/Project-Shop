@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import { AnimatedSwitch } from 'react-router-transition';
 import { library } from  "@fortawesome/fontawesome-svg-core";
 import { fab } from  "@fortawesome/free-brands-svg-icons";
 import { fas } from  "@fortawesome/free-solid-svg-icons";
@@ -16,6 +15,8 @@ import Faq from "./components/FAQ/Faq";
 import Regulations from "./components/Regulations/Regulations";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
+import Product from "./components/Product/ProductItem";
+import Basket from "./components/Basket/Basket";
 
 class App extends React.Component {
   render() {
@@ -28,6 +29,8 @@ class App extends React.Component {
             <Route exact path={"/faq"} component={Faq} />
             <Route exact path={"/regulations"} component={Regulations} />
             <Route exact path={"/contact"} component={Contact} />
+            <Route exact path={"/basket"} component={Basket} />
+            <Route exact path={"/product/:id"} component={Product} />
             <Route path="/404" component={NotFound} />
               <Redirect from="*" to="/404" />
           </Switch>
