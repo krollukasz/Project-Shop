@@ -1,21 +1,21 @@
 export const getProduct = (product) => {
   return {
     type: "GET_PRODUCT",
-    product
+    payload: product
   }
 }
 
 export const quantityAdd = (product) => {
   return {
     type: "QUANTITY_ADD",
-    product
+    payload: product
   }
 }
 
 export const quantityRemove = (product) => {
   return {
     type: "QUANTITY_REMOVE",
-    product
+    payload: product
   }
 }
 
