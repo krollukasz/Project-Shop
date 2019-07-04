@@ -15,7 +15,7 @@ const Contact = () => (
     <p className="contact-phone">
       Mobile: <FontAwesomeIcon icon = {[ "fas" , "mobile-alt" ]} className="contact-icon" / > +48 123 456 789
     </p>
-    <h2 className="contact-social-media-hrader">
+    <h2 className="contact-social-media-header">
       Visit us on social media
     </h2>
 
