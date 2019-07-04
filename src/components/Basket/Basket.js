@@ -1,6 +1,6 @@
 import React from 'react';
 import BasketOrder from './BasketOrder';
-// import BasketSummary from './BasketSummary';
+import BasketSummary from './BasketSummary';
 
 // Import styles
 import "./Basket.scss";
@@ -26,7 +26,7 @@ export default class Basket extends React.Component {
           <BasketOrder />
           <div className="basket-pay row">
             <div className="col-8"></div>
-            <div className="col-4">
+            <div className="btn-wrapper col-4">
               <button className="basket-orderSummary" onClick={() => { this.initialSummary() }}>Pay</button>
             </div>
           </div>
@@ -36,9 +36,9 @@ export default class Basket extends React.Component {
     }
 
     else if (this.state.summaryOrder === true) {
-      // return (
-        // <BasketSummary />
-      // );
+      return (
+        <BasketSummary />
+      );
     }
   }
 };

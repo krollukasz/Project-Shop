@@ -1,0 +1,147 @@
+.basket {
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-order-header,
+.basket-summary-header {
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.basket-pay {
+  margin-bottom: 16px;
+}
+
+.btn-wrapper {
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.basket-orderSummary{
+  margin-top: 16px;
+  padding: 10px 60px;
+  background-color: #BBDEFB;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #0077d8;
+    transition: 0.3s;
+  }
+}
+
+// STYLES FOR BASKET ORDER
+.basket-order-products {
+  margin: 10px 0;
+  padding: 20px;
+  border: 1px #BBDEFB solid;
+  border-radius: 5px;
+}
+
+.basket-order-products-img {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.basket-order-products-description-name,
+.basket-order-products-description-text {
+  padding: 4px 8px;
+}
+
+.basket-order-products-description-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.basket-order-products-description-text {
+  margin-bottom: 0;
+}
+
+.basket-order-products-price {
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.basket-order-products-quantity-btn,
+.basket-order-products-quantity-value {
+  margin: 20px 10px 20px;
+  padding: 5px 15px;
+  display: inline-flex;
+  background: #BBDEFB;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.basket-order-products-quantity-btn:hover {
+  background-color: #0077d8;
+  transition: 0.3s;
+}
+
+.basket-order-discount-code,
+.basket-order-total {
+  margin: 4px;
+  padding: 4px;
+  text-align: right;
+}
+
+.basket-order-total-pay {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.basket-order-input {
+  padding-left: 5px;
+}
+
+// STYLES FOR BASKET SUMMARY
+.basket-summary {
+  padding: 0 10%;
+}
+
+.basket-summary-product {
+  margin: 6px 6px;
+  padding: 5px;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+}
+
+.basket-summary-product-price {
+  text-align: center;
+}
+
+.basket-summary-main {
+  margin: 20px 5px;
+  padding: 4px;
+  background: #BBDEFB;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+}
+
+.basket-summary-main-item,
+.basket-summary-main-item-total {
+  text-align: center;
+}
+
+.basket-summary-main-item-name,
+.basket-summary-main-item-total {
+  font-size: 1.6em;
+}

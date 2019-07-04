@@ -57,7 +57,7 @@ export class BasketOrder extends React.Component {
         </div>
         <div className="basket-order-total row">
           <div className="col-9"></div>
-          <div className="basket-order-total-pay col-3">Total: {this.props.basket.summary.toFixed(2)} $</div>
+          <div className="basket-order-total-pay col-3">Total: $ {this.props.basket.summary.toFixed(2)}</div>
         </div>
       </div>
     );
